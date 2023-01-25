@@ -1,0 +1,32 @@
+body{
+    background: url('./img/weather.jpg') fixed center center;
+    font-family: sans-serif;
+}
+
+h3{
+    text-align: center;
+    font-weight: bold;
+}
+
+.container{
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.5);
+    max-height: 750px;
+    max-width: 550px;
+    margin: 10% auto;
+}
+
+.error_msg{
+    background-color: brown;
+    color: white;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 5px 0;
+    width: 100%;
+}
+
+table,td,th,tr{
+    color: white;
+}
